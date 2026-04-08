@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-productivity-cli"
+version = "0.1.0"
+description = "A comprehensive CLI tool for tracking development session times, categorizing tasks, and analyzing productivity patterns."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "sqlite"]
+dependencies = ["click"]
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-productivity-cli"
